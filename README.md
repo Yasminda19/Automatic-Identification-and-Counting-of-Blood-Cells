@@ -17,6 +17,11 @@ The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/C
 - TF-slim==1.1.0 ```pip install tf-slim==1.1.0```
 - Weights: [```download```](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb) the trained weights file for blood cell detection and put the ```weights``` folder in the working directory.
 
+## Native Module
+```
+python setup.py build_ext --inplace
+```
+
 [![Download](https://img.shields.io/badge/download-weights-blue.svg?longCache=true&style=flat&logo=microsoft-onedrive)](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb)
 [![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
